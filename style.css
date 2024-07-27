@@ -1,0 +1,119 @@
+body{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 6px;
+}
+.color{
+    position: absolute;
+    left: 0%;
+    right: 95.41%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(0deg, #339F7A, #339F7A), url(Billgates.jpg);
+    box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 6px 0px 0px 6px;
+}
+/* .color2{
+    position: absolute;
+    left: 10%;
+    right: 150%;
+    top: 32.07%;
+    bottom: 30%;
+    background:  rgba(51, 159, 122, 1);
+    border-radius: 6px;
+} */
+
+h1{
+    position: absolute;
+    left: 7%;
+    right: 75.73%;
+    top: 12%;
+    bottom: 86.63%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #142958;
+}
+h2{
+    position: absolute;
+    left: 6.19%;
+    right: 25%;
+    top: 100%;
+    bottom: 23.86%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    color: #2DA77D;  
+}
+h3{
+    position: absolute;
+    left: 6.19%;
+    right: 25%;
+    top: 120%;
+    bottom: 19.91%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #142958;
+}
+.image{
+    
+    height: 318px;
+    width: 272px;
+    left: 30px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 1%;
+    background: url(Billgates.jpg);
+    border-radius: 6px;
+
+}
+.container{
+    display: flex;
+   
+}
+.left {
+    position: absolute;
+    left: 3.37%;
+    right: 67.01%;
+    top: 32.07%;
+    bottom: 30%;
+    
+    background: #339F7A;
+    border-radius: 6px;
+  }
+  .right {
+    position: absolute;
+    left: 36.74%;
+    right: 3.75%;
+    top: 18.09%;
+    bottom: 8.51%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #767676;
+  }
+p{
+    font-size: 20px;
+    font-family: Poppins;
+}
